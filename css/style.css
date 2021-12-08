@@ -1,0 +1,319 @@
+:root {
+    --mainColor : #f25454;
+    --praphColor: #999;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing        : border-box;
+    padding           : 0px;
+    margin            : 0px;
+    font-size         : 16px;
+
+}
+
+/* Start Home Section */
+
+li a,
+.aboutProgress h5,
+.btn,
+.card h5 {
+    text-transform: capitalize;
+}
+
+.activeColor,
+.navbar-light .navbar-nav .nav-link:hover {
+    color             : var(--mainColor);
+    -webkit-transition: all 0.3s;
+    -o-transition     : all 0.3s;
+    transition        : all 0.3s;
+}
+
+.navbar {
+    position        : fixed;
+    left            : 0px;
+    right           : 0px;
+    top             : 0px;
+    z-index         : 999999;
+    background-color: transparent;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color      : white;
+
+}
+
+.txtnav {
+
+    text-align : center;
+    font-size  : 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-weight: bold;
+    color      : white;
+    position   : absolute;
+    top        : 50%;
+    right      : 50%;
+    transform  : translate(50%);
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    border-style    : none;
+    background-color: transparent;
+
+}
+
+.carousel-item img {
+    background-size    : contain;
+    background-position: center;
+}
+
+/* End Home Section */
+/* Start About Section */
+
+.titleCaption h2,
+.titleBg p {
+
+    text-transform: capitalize;
+    font-weight   : bold;
+}
+
+.underLine {
+    width           : 50px;
+    height          : 2px;
+    background-color: black;
+}
+
+.titleBg {
+
+    left             : 50%;
+    bottom           : -25%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform    : translateX(-50%);
+    transform        : translateX(-50%);
+}
+
+.titleCaption h2 {
+    font-size: 2.5rem;
+}
+
+.titleBg p {
+
+    font-size: 4rem;
+    color    : rgba(0, 0, 0, 0.192);
+}
+
+.titlePrph p {
+    color    : var(--praphColor);
+    font-size: 18px;
+
+}
+
+.aboutCaption p {
+    font-family: "Open Sans", sans-serif;
+    font-size  : 16px;
+    line-height: 1.75em;
+    color      : rgb(14, 14, 121)
+}
+
+/* End About Section */
+/* Start Team Section */
+
+.team-footer p {
+    font-family: "Poppins", sans-serif;
+    color      : #282828;
+    font-size  : 32px;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: var(--mainColor);
+    color           : white;
+}
+
+.btn:hover {
+    background-color  : #ee5f5c9a;
+    color             : white;
+    -webkit-transition: all 0.3s;
+    -o-transition     : all 0.3s;
+    transition        : all 0.3s;
+}
+
+
+.overbg {
+    overflow: hidden;
+}
+
+.imageoverly {
+    background-color  : rgba(242, 84, 84, 0.5);
+    width             : 100%;
+    height            : 100%;
+    position          : absolute;
+    -webkit-transition: all 1.2s;
+    -o-transition     : all 1.2s;
+    transition        : all 1.2s;
+}
+
+.overbg:hover .imageoverly {
+    top   : 0px;
+    bottom: 0px;
+}
+
+.overbg img {
+    -webkit-transition: all 1.2s;
+    -o-transition     : all 1.2s;
+    transition        : all 1.2s;
+}
+
+.overbg:hover img {
+
+    -webkit-transform: scale(1.2);
+
+    -ms-transform: scale(1.2);
+
+    transform: scale(1.2);
+}
+
+.fa-twitter:hover {
+    color: #55ADEE !important;
+}
+
+.fa-facebook:hover {
+    color: #4867AA !important;
+}
+
+.fa-instagram:hover {
+    color: #FA712B !important;
+}
+
+.fa-pinterest:hover {
+    color: #B71B1B !important;
+}
+
+/* End Team Section */
+/* Start Services Section */
+
+#services,
+#reviews {
+    background-color: #F4EFEF;
+}
+
+.fa-laptop:before,
+.fa-pencil-ruler:before,
+.fa-flag:before,
+.fa-book-open:before,
+.fa-ubuntu:before,
+.fa-headset:before,
+.fa-file-signature:before,
+.fa-video:before,
+.fa-sliders-h:before {
+    color    : #f39b9a;
+    font-size: 24px;
+
+}
+
+.hoverover {
+    color             : black;
+    -webkit-transition: all 0.3s;
+    -o-transition     : all 0.3s;
+    transition        : all 0.3s;
+}
+
+.hoverover:hover {
+    color: #f39b9a;
+}
+
+/* End Services Section */
+/* Start contact Section */
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+#contact p,
+a {
+    font-family       : "Poppins", sans-serif;
+    color             : #b0b0b0;
+    margin-right      : 9px;
+    -webkit-transition: all 0.3s;
+    -o-transition     : all 0.3s;
+    transition        : all 0.3s;
+}
+
+#contact a:hover {
+
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    color             : #fafafa;
+    border-color      : #fafafa;
+    margin            : 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition     : all 0.3s;
+    transition        : all 0.3s;
+    background-color  : transparent;
+}
+
+.btn-outline-primary:hover {
+
+    border-color    : var(--mainColor);
+    background-color: transparent;
+}
+
+
+#contact a:hover,
+.btn-outline-primary:hover {
+    color: var(--mainColor);
+}
+
+/* End contact Section */
+/* Start Footer  Section*/
+
+#footer {
+    background-color: #1a1a1a;
+    padding         : 25px;
+    color           : #b0b0b0;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+
+    text-decoration: none;
+
+}
+
+#footer a:hover {
+    color: var(--mainColor);
+
+}
+
+/* End Footer */
+/* Start scroll btn */
+.footer-btn {
+    position  : absolute;
+    right     : 0px;
+    top       : 0px;
+    transform : translate(100% 100%);
+    transition: 0.5 all;
+
+}
+
+.footer-btn:hover {
+
+    color : var(--mainColor);
+    cursor: pointer;
+
+}
+
+/* End scroll btn */
