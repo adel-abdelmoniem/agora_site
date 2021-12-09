@@ -200,7 +200,8 @@ li a,
 /* Start Services Section */
 
 #services,
-#reviews {
+#reviews,
+#about {
     background-color: #F4EFEF;
 }
 
@@ -230,6 +231,19 @@ li a,
 }
 
 /* End Services Section */
+/* Start Review Section */
+
+
+.fa-arrow-right,
+.fa-arrow-left {
+    color: #007BFF;
+}
+
+.carousel-indicators li {
+    background-color: #007bff62;
+}
+
+/* End Review Section */
 /* Start contact Section */
 
 #contact {
